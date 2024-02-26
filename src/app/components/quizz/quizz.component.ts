@@ -71,7 +71,7 @@ export class QuizzComponent implements OnInit {
           return current
         }
     })
-
+    console.log(result)
     return result
   }
 

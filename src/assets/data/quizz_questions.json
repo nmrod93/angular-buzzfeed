@@ -24,26 +24,72 @@
       "id":3,
       "question": "Como são criados os Bitcoins?",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"São gerados aleatoriamente por um algoritmo", "alias":"B"},
+        {"id": 2, "name":"São minerados através de um processo digital por computadores", "alias":"A"},
+        {"id": 3, "name":"São impressos por um governo central", "alias":"B"}
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "O que é um endereço de Bitcoin?",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"Uma senha secreta usada para acessar a carteira digital", "alias":"B"},
+        {"id": 2, "name":"Um código alfanumérico usado para identificar uma carteira digital", "alias":"A"},
+        {"id": 3, "name":"O nome de usuário utilizado para realizar transações", "alias":"B"}
       ]
     },
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "Qual é o limite máximo de Bitcoins que pode ser criado?",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"10 milhões de Bitcoins", "alias":"B"},
+        {"id": 2, "name":"21 milhões de Bitcoins", "alias":"A"},
+        {"id": 3, "name":"1 milhão de Bitcoins", "alias":"B"}
+      ]
+    },
+    {
+      "id":6,
+      "question": "O que é um blockchain?",
+      "options":[
+        {"id": 1, "name":"Um registro público descentralizado que registra todas as transações de Bitcoin", "alias":"A"},
+        {"id": 2, "name":"Uma rede de computadores utilizada para armazenar Bitcoins", "alias":"B"},
+        {"id": 3, "name":"Um software utilizado para minerar Bitcoins", "alias":"B"}
+      ]
+    },
+    {
+      "id":7,
+      "question": "Quais são os riscos associados ao investimento em Bitcoin?",
+      "options":[
+        {"id": 1, "name":"Risco de perda de acesso à carteira digital", "alias":"B"},
+        {"id": 2, "name":"Todas as opções anteriores estão corretas", "alias":"A"},
+        {"id": 3, "name":"Risco de hackers roubar os Bitcoins", "alias":"B"}
+      ]
+    },
+    {
+      "id":8,
+      "question": "Qual é a função dos mineradores no ecossistema do Bitcoin?",
+      "options":[
+        {"id": 1, "name":"Verificar e validar transações na rede do Bitcoin", "alias":"A"},
+        {"id": 2, "name":"Desenvolver novas tecnologias relacionadas ao Bitcoin", "alias":"B"},
+        {"id": 3, "name":"Comprar e vender Bitcoins nas exchanges", "alias":"B"}
+      ]
+    },
+    {
+      "id":9,
+      "question": "Quais são os principais benefícios do Bitcoin?",
+      "options":[
+        {"id": 1, "name":"Controle governamental para garantir a estabilidade da moeda", "alias":"B"},
+        {"id": 2, "name":"Baixas taxas de transação e velocidade rápida de transferências", "alias":"A"},
+        {"id": 3, "name":"Acesso universal e fácil para pessoas de todas as regiões", "alias":"B"}
+      ]
+    },
+    {
+      "id":10,
+      "question": "O Bitcoin é considerado uma moeda legal em todos os países?",
+      "options":[
+        {"id": 1, "name":"Sim, o Bitcoin é considerado uma moeda legal em todos os países", "alias":"B"},
+        {"id": 2, "name":"Não, o Bitcoin é considerado ilegal em muitos países", "alias":"B"},
+        {"id": 3, "name":"O status legal do Bitcoin varia de país para país", "alias":"A"}
       ]
     }
   ],
