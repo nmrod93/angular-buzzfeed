@@ -1,29 +1,28 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"Compre na alta, venda na baixa",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "Quem criou o Bitcoin?",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"Elon Musk.", "alias":"B"},
+        {"id": 2, "name":"Vitalik Buterin.", "alias":"B"},
+        {"id": 3, "name":"Satoshi Nakamoto.", "alias":"A"},
+        {"id": 4, "name":"Mark Zuckerberg.", "alias":"B"}
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "Qual é a característica central do Bitcoin que o diferencia das moedas tradicionais?",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"A sua descentralização e ausência de controle governamental", "alias":"A"},
+        {"id": 2, "name":"A sua alta volatilidade de preço", "alias":"B"},
+        {"id": 3, "name":"A sua aceitação como forma de pagamento universal", "alias":"B"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "Como são criados os Bitcoins?",
       "options":[
         {"id": 1, "name":"Não destruir prédios", "alias":"B"},
         {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
@@ -49,7 +48,7 @@
     }
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "A": "Você é bom demais",
+    "B": "Te falta estudo"
   }
 }
