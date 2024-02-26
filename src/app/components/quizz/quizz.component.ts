@@ -20,6 +20,9 @@ export class QuizzComponent implements OnInit {
   questionIndex:number =0
   questionMaxIndex:number=0
 
+  correctAnswers:number = 0; // Adicionando o contador de respostas corretas
+  finalAnswer:string = ""
+
   finished:boolean = false
 
   constructor() { }
@@ -42,9 +45,8 @@ export class QuizzComponent implements OnInit {
   }
 
   playerChoose(value:string){
-    this.answers.push(value)
+    this.answers.push(value)  
     this.nextStep()
-
   }
 
   async nextStep(){
@@ -59,9 +61,24 @@ export class QuizzComponent implements OnInit {
     }
   }
 
-  async checkResult(anwsers:string[]){
+  async checkResult(answers:string[]){
 
-    const result = anwsers.reduce((previous, current, i, arr)=>{
+
+
+
+
+    const counts: {[key: string]: number} = {};
+    answers.forEach(answer => {
+        counts[answer] = (counts[answer] || 0) + 1;
+    });
+
+    console.log(answers);
+    console.log(counts);
+    
+
+
+
+    const result = answers.reduce((previous, current, i, arr)=>{
         if(
           arr.filter(item => item === previous).length >
           arr.filter(item => item === current).length
@@ -71,8 +88,7 @@ export class QuizzComponent implements OnInit {
           return current
         }
     })
-    console.log(result)
     return result
   }
-
 }
+
