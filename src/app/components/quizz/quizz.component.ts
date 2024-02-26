@@ -20,11 +20,10 @@ export class QuizzComponent implements OnInit {
   questionIndex:number =0
   questionMaxIndex:number=0
 
-  correctAnswers:number = 0; // Adicionando o contador de respostas corretas
-  finalAnswer:string = ""
+  count:number = 0
 
   finished:boolean = false
-
+  
   constructor() { }
 
   ngOnInit(): void {
@@ -63,21 +62,6 @@ export class QuizzComponent implements OnInit {
 
   async checkResult(answers:string[]){
 
-
-
-
-
-    const counts: {[key: string]: number} = {};
-    answers.forEach(answer => {
-        counts[answer] = (counts[answer] || 0) + 1;
-    });
-
-    console.log(answers);
-    console.log(counts);
-    
-
-
-
     const result = answers.reduce((previous, current, i, arr)=>{
         if(
           arr.filter(item => item === previous).length >
@@ -88,6 +72,15 @@ export class QuizzComponent implements OnInit {
           return current
         }
     })
+
+    for (let i:number = 0; i < answers.length; i++) {
+      if(answers[i] === "A"){
+        this.count++
+      }
+    }
+
+    // console.log(this.count)
+    // console.log(answers)
     return result
   }
 }
